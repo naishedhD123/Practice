@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.circle,.oval,.tringle{
+			height: 200px;
+			width: 200px;
+			background: gray;
+			margin: 30px;
+		}
+		.circle{
+			border-radius: 100px;
+			background: blue;
+		}
+		.oval{
+			border-radius: 50%;
+			width: 300px;
+			background: red;
+		}
+		.tringle{
+			/*height: 0;
+			width: 0;*/
+			background: transparent;
+/*			border:20px solid black;*/
+			box-sizing: border-box;
+			border-top: 120px solid transparent;
+			border-left: 120px solid transparent;
+			border-right: 120px solid transparent;
+			border-bottom: 120px solid blue;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="circle"></div>
+
+	<div class="oval"></div>
+
+	<div class="tringle"></div>
+
+</body>
+</html>

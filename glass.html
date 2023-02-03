@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<style type="text/css">
+		.main{
+			height: 320px;
+			width: 500px;
+			background: gray transparent;
+			margin: 100px auto;
+			position: relative;
+			border-radius: 30px;
+		}
+		.circle1{
+			height: 200px;
+			width: 200px;
+			background: linear-gradient(red,blue);
+			border-radius: 50%;
+			position: absolute;
+			left: -100px;
+			bottom: -60px;
+		}
+		.circle2{
+			height: 100px;
+			width: 100px;
+			background: linear-gradient(pink,lightcoral);
+			border-radius: 50%;
+			position: absolute;
+			top: -50px;
+			right: 200px;
+		}
+		.circle3{
+			height: 300px;
+			width: 300px;
+			background: linear-gradient(maroon,green);
+			border-radius: 50%;
+			position: absolute;
+			top: -100px;
+			right: -150px;
+		}
+		.glass{
+			height: 320px;
+			width: 500px;
+			background: rgba(255, 255, 255, 0.2);
+			margin: 100px auto;
+			position: relative;
+			border-radius: 30px;
+			z-index: 1;
+			backdrop-filter: blur(5px);
+			box-shadow: inset 0 0 5px gray;
+			
+		}
+		.main .glass .text{
+			word-spacing: 256px;
+			padding: 40px;
+			font-size: 22px;
+			color: rgba(255, 255, 255, 0.3);
+
+
+		}
+		.main .glass .text2{
+			padding: 40px;
+			font-size: 22px;
+			color: rgba(255, 255, 255, 0.3);
+		}
+	</style>
+</head>
+<body bgcolor="black">
+
+	<div class="main">
+
+		<div class="glass">
+			<div class="text">
+				Mambership
+				<i style="font-size: 45px;" class="fa-regular fa-circle"></i>
+			</div>
+
+			<div class="text2">
+				<p>JAMES&nbsp;APPLESEED</p>
+				<p>UXMISFIT.TOOLS</p>
+			
+			</div>
+		</div>
+		<div class="circle1"></div>
+		<div class="circle2"></div>
+		<div class="circle3"></div>
+	</div>
+
+</body>
+</html>

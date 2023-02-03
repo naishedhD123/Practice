@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+		.content 
+		{
+			border: 2px solid red;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.content .items
+		{
+			border: 2px solid blue;
+			flex-grow: 1;
+		}
+
+		.content .item1 {height: 300px;flex-basis: 500px;background: lightblue;}
+		.content .item2 {height: 300px;flex-basis: 500px;background: lightcoral;}
+		.content .item3 {height: 300px;flex-basis: 500px;background: lightblue;}
+		.content .item4 {height: 300px;flex-basis: 500px;background: url(https://cdn.pixabay.com/photo/2022/10/14/15/03/cabot-trail-7521521__340.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;}
+
+		.item1 img
+		{
+			object-fit: contain;
+		}
+	</style>
+</head>
+<body>
+
+	
+	<div class="content">
+
+		<div class="items item1"> 
+			<img src="https://cdn.pixabay.com/photo/2022/10/14/15/03/cabot-trail-7521521__340.jpg" height="100%" width="100%">
+		</div>
+
+		<div class="items item2"> test 123</div>
+		<div class="items item3"> test 123</div>
+		<div class="items item4"> test 123</div>
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.products{
+			height: 400px;
+			width: 200px;
+			background: white;
+			position: relative;
+			box-shadow: 0px 0px 10px black;
+		}
+		.products .prd-view{
+			height: 50px;
+			width: 200px;
+			background: coral;
+			position: absolute;
+			top: 0;
+			right: 0;
+			text-align: center;
+			line-height: 50px;
+			transition: 1s;
+		}
+		.products .prd-info{
+			text-align: center;
+			padding: 10px 0 0 0;
+		}
+
+		.products:hover .prd-view{
+			position: absolute;
+			top: 200px;
+		}
+		.cart{
+			height: 50px;
+			width: 150px;
+			background: green;
+			margin: auto;
+			line-height: 45px;
+			color: white;
+			letter-spacing: 2px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="products">
+		<div class="prd-img">
+			<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" height="100%" width="100%">
+		</div>
+
+		<div class="prd-view">
+			Quick View
+		</div>
+
+		<div class="prd-info">
+			<p>Formal Blue Shirt</p>
+			<p>$656.6t5.78y78</p>
+			<p class="cart">Add To Cart</p>
+		</div>
+	</div>
+
+</body>
+</html>

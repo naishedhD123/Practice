@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			outline: 0;
+		}
+		.filter{
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			z-index: 1;
+			opacity: .7;
+			background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,170,234,1) 0%, rgba(224,137,228,1) 35%, rgba(0,212,255,1) 100%);
+		}
+		table{
+			position: absolute;
+			z-index: 2;
+			left: 50%;
+			right: 50%;
+			transform: translate(-50%-50%);
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="filter">
+	</div>
+
+	<table border="1" cellpadding="10" cellspacing="0">
+		<tr>
+			<th>Day/period</th>
+			<th>I<br> 9:30-10:20</th>
+			<th>II<br> 10:20-11:10</th>
+			<th>III<br> 11:10-12:20</th>
+			<<th>12:00-12:40</th>
+			<th>IV<br> 12:40-30</th>
+			<th>V<br> 1:30-2:20</th>
+			<th>VI<br> 2:20-3:10</th>
+			<th>VII<br> 3:10-4:00</th>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td>End</td>
+			<td>Mat</td>
+			<td>Che</td>
+			<td rowspan="6"><b>Lunch</b></td>
+			<td colspan="3" style="text-align: center;">Lab</td>
+			<td>Phy</td>
+		</tr>
+
+		<tr>
+			<td>Tuesday</td>
+			<td colspan="3" style="text-align: center;">LAB</td>
+			
+			<td>Eng</td>
+			<td>Che</td>
+			<td>Mat</td>
+			<td>SPORTS</td>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td>Mat</td>
+			<td>phy</td>
+			<td>Eng</td>
+			
+			<td>Che</td>
+			<td colspan="3" style="text-align: center;">LIBRARY</td>
+		</tr>
+
+		<tr>
+			<td>Thursday</td>
+			<td>End</td>
+			<td>Mat</td>
+			<td>Che</td>
+			<td colspan="3">Lab</td>
+			<td>Mat</td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td colspan="3" style="text-align:center;">LAB</td>
+			
+			<td>Mat</td>
+			<td>Che</td>
+			<td>Eng</td>
+			<td>Phy</td>
+		</tr>
+		<tr>
+			<td>Saturday</td>
+			<td>End</td>
+			<td>Che</td>
+			<td>Mat</td>
+			<td colspan="3">SEMINAR</td>
+			<td>SPORTS</td>
+		</tr>
+
+
+	</table>
+
+</body>
+</html>
